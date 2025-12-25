@@ -11,7 +11,7 @@ import { ScrollToTop } from '@/components/ScrollToTop'
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background relative panda-pattern">
+    <div className="min-h-screen bg-background relative">
       <FloatingElements />
       <SparkleAnimation />
       <Header />

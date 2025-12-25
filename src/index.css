@@ -7,115 +7,122 @@
 /* Birthday Theme Design System */
 @layer base {
   :root {
-    /* Red Panda Birthday Theme Colors */
-    --background: 24 65% 98%;
-    --foreground: 20 35% 18%;
+    /* Birthday Theme Colors */
+    --background: 340 30% 98%;
+    --foreground: 340 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 18 30% 20%;
+    --card-foreground: 340 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 18 30% 20%;
+    --popover-foreground: 340 15% 15%;
 
-    --primary: 14 78% 55%;
-    --primary-foreground: 36 100% 97%;
+    --primary: 320 60% 65%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 132 32% 46%;
-    --secondary-foreground: 120 26% 95%;
+    --secondary: 200 60% 80%;
+    --secondary-foreground: 340 15% 15%;
 
-    --muted: 28 45% 95%;
-    --muted-foreground: 18 20% 38%;
+    --muted: 340 15% 95%;
+    --muted-foreground: 340 10% 45%;
 
-    --accent: 356 66% 70%;
+    --accent: 280 50% 75%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 72% 55%;
-    --destructive-foreground: 36 100% 97%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 18 32% 88%;
-    --input: 18 32% 92%;
-    --ring: 14 78% 55%;
+    --border: 340 20% 90%;
+    --input: 340 20% 95%;
+    --ring: 320 60% 65%;
 
     --radius: 1rem;
 
-    /* Red Panda Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(14 78% 68%), hsl(132 32% 64%));
-    --gradient-secondary: linear-gradient(135deg, hsl(356 66% 78%), hsl(28 60% 90%));
-    --gradient-hero: linear-gradient(135deg, hsl(28 60% 96%) 0%, hsl(132 32% 93%) 50%, hsl(14 60% 94%) 100%);
+    /* Birthday Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(320 60% 75%), hsl(200 60% 80%));
+    --gradient-secondary: linear-gradient(135deg, hsl(280 50% 85%), hsl(340 50% 85%));
+    --gradient-hero: linear-gradient(135deg, hsl(320 40% 90%) 0%, hsl(200 40% 95%) 50%, hsl(280 30% 95%) 100%);
     --gradient-card: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
-
+    
     /* Glassmorphism */
-    --glass-bg: rgba(255, 255, 255, 0.18);
-    --glass-border: rgba(255, 255, 255, 0.25);
-    --glass-shadow: 0 10px 40px rgba(20, 12, 6, 0.08);
+    --glass-bg: rgba(255, 255, 255, 0.15);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 
     /* Shadows */
-    --shadow-soft: 0 6px 26px rgba(20, 12, 6, 0.08);
-    --shadow-hover: 0 12px 40px rgba(20, 12, 6, 0.14);
-    --shadow-polaroid: 0 12px 36px rgba(20, 12, 6, 0.16);
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.12);
+    --shadow-polaroid: 0 10px 30px rgba(0, 0, 0, 0.15);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    --sidebar-background: 24 65% 98%;
-    --sidebar-foreground: 20 35% 18%;
-    --sidebar-primary: 14 78% 55%;
-    --sidebar-primary-foreground: 36 100% 97%;
-    --sidebar-accent: 132 32% 94%;
-    --sidebar-accent-foreground: 20 35% 18%;
-    --sidebar-border: 18 32% 88%;
-    --sidebar-ring: 14 78% 55%;
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
   .dark {
-    /* Dark Red Panda Theme Colors */
-    --background: 20 35% 10%;
-    --foreground: 20 15% 92%;
+    /* Dark Birthday Theme Colors */
+    --background: 340 20% 8%;
+    --foreground: 340 15% 92%;
 
-    --card: 20 30% 14%;
-    --card-foreground: 36 32% 95%;
+    --card: 340 15% 12%;
+    --card-foreground: 340 15% 92%;
 
-    --popover: 20 30% 14%;
-    --popover-foreground: 36 32% 95%;
+    --popover: 340 15% 12%;
+    --popover-foreground: 340 15% 92%;
 
-    --primary: 14 78% 60%;
-    --primary-foreground: 20 35% 10%;
+    --primary: 320 60% 70%;
+    --primary-foreground: 340 20% 8%;
 
-    --secondary: 132 35% 32%;
-    --secondary-foreground: 36 32% 95%;
+    --secondary: 200 40% 25%;
+    --secondary-foreground: 340 15% 92%;
 
-    --muted: 20 20% 18%;
-    --muted-foreground: 20 15% 70%;
+    --muted: 340 15% 15%;
+    --muted-foreground: 340 10% 65%;
 
-    --accent: 356 55% 60%;
-    --accent-foreground: 20 35% 10%;
+    --accent: 280 50% 60%;
+    --accent-foreground: 340 20% 8%;
 
-    --destructive: 0 72% 55%;
-    --destructive-foreground: 36 32% 95%;
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 340 15% 92%;
 
-    --border: 20 20% 22%;
-    --input: 20 20% 18%;
-    --ring: 14 78% 60%;
+    --border: 340 15% 20%;
+    --input: 340 15% 15%;
+    --ring: 320 60% 70%;
 
-    /* Dark Red Panda Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(14 78% 38%), hsl(132 35% 28%));
-    --gradient-secondary: linear-gradient(135deg, hsl(356 55% 40%), hsl(28 45% 30%));
-    --gradient-hero: linear-gradient(135deg, hsl(20 25% 14%) 0%, hsl(132 25% 16%) 50%, hsl(14 35% 18%) 100%);
-    --gradient-card: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
-
+    /* Dark Birthday Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(320 60% 40%), hsl(200 60% 35%));
+    --gradient-secondary: linear-gradient(135deg, hsl(280 50% 30%), hsl(340 50% 30%));
+    --gradient-hero: linear-gradient(135deg, hsl(320 30% 15%) 0%, hsl(200 30% 12%) 50%, hsl(280 25% 15%) 100%);
+    --gradient-card: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+    
     /* Dark Glassmorphism */
-    --glass-bg: rgba(255, 255, 255, 0.06);
+    --glass-bg: rgba(255, 255, 255, 0.05);
     --glass-border: rgba(255, 255, 255, 0.1);
-    --glass-shadow: 0 10px 44px rgba(0, 0, 0, 0.35);
-    --sidebar-background: 20 35% 10%;
-    --sidebar-foreground: 36 32% 95%;
-    --sidebar-primary: 14 78% 60%;
-    --sidebar-primary-foreground: 20 35% 10%;
-    --sidebar-accent: 20 20% 18%;
-    --sidebar-accent-foreground: 36 32% 95%;
-    --sidebar-border: 20 20% 22%;
-    --sidebar-ring: 14 78% 60%;
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
 
@@ -189,11 +196,6 @@
     50% { transform: translateY(-5px) translateX(-3px); }
     75% { transform: translateY(-8px) translateX(2px); }
     100% { transform: translateY(0px) translateX(0px); }
-  }
-
-  @keyframes sway {
-    0%, 100% { transform: translateY(0px) rotate(-8deg); }
-    50% { transform: translateY(-12px) rotate(6deg); }
   }
 
   @keyframes sparkle-pulse {
@@ -342,68 +344,5 @@
     max-height: 75vh;
     width: 100%;
     height: auto;
-  }
-
-  .panda-pattern::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image:
-      radial-gradient(circle at 20% 25%, hsl(var(--primary) / 0.12) 0 18px, transparent 24px),
-      radial-gradient(circle at 70% 20%, hsl(var(--secondary) / 0.12) 0 14px, transparent 20px),
-      radial-gradient(circle at 35% 70%, hsl(var(--accent) / 0.1) 0 16px, transparent 22px),
-      radial-gradient(circle at 80% 65%, hsl(var(--primary) / 0.12) 0 12px, transparent 18px);
-    background-size: 320px 320px, 280px 280px, 360px 360px, 300px 300px;
-    opacity: 0.5;
-    pointer-events: none;
-    mix-blend-mode: multiply;
-  }
-
-  .panda-frame {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .panda-frame::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    padding: 1px;
-    background: linear-gradient(135deg, hsl(var(--primary) / 0.6), hsl(var(--secondary) / 0.6));
-    mask: linear-gradient(#000, #000) content-box, linear-gradient(#000, #000);
-    -webkit-mask: linear-gradient(#000, #000) content-box, linear-gradient(#000, #000);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    pointer-events: none;
-    opacity: 0.8;
-  }
-
-  .panda-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.65rem 1rem;
-    border-radius: 9999px;
-    background: hsl(var(--primary) / 0.12);
-    color: hsl(var(--primary));
-    font-weight: 600;
-    letter-spacing: 0.01em;
-    box-shadow: var(--shadow-soft);
-  }
-
-  .paw-print {
-    filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.08));
-    color: hsl(var(--primary));
-  }
-
-  .bamboo-leaf {
-    width: 32px;
-    height: 32px;
-    border-radius: 9999px 9999px 2px 9999px;
-    background: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary) / 0.8));
-    box-shadow: 0 8px 18px rgba(12, 38, 24, 0.15);
-    transform-origin: bottom right;
-    animation: sway 5s ease-in-out infinite;
   }
 }
