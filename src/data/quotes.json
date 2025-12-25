@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "quote": "Life is either a daring adventure or nothing at all.",
+    "author": "Helen Keller"
+  },
+  {
+    "id": 2,
+    "quote": "The older you get, the better you get unless you are a banana.",
+    "author": "Betty White"
+  },
+  {
+    "id": 3,
+    "quote": "You are only young once, but you can stay immature indefinitely.",
+    "author": "Ogden Nash"
+  },
+  {
+    "id": 4,
+    "quote": "The secret of staying young is to live honestly, eat slowly, and lie about your age.",
+    "author": "Lucille Ball"
+  },
+  {
+    "id": 5,
+    "quote": "To move, to breathe, to fly, to float… To travel is to live.",
+    "author": "Hans Christian Andersen"
+  },
+  {
+    "id": 6,
+    "quote": "Tell me, what is it you plan to do with your one wild and precious life",
+    "author": "Mary Oliver"
+  }
+]
