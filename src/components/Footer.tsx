@@ -4,7 +4,7 @@ export function Footer() {
       <div className="container mx-auto">
         <p className="text-muted-foreground">
           Con amor para <span className="text-primary font-semibold">Angie</span>. 
-          <span className="hidden sm:inline"> Te amo.</span>
+          <span className="hidden sm:inline"> </span>
         </p>
       </div>
     </footer>
