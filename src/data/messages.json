@@ -1,62 +1,32 @@
 [
-  {
+   {
     "id": 1,
-    "name": "Dayana",
-    "message": "Happy Birthday to one of the most amazing people I know! Your kindness and laughter light up every room. Hope your day is as wonderful as you are! 🎉"
+    "name": "Daniel",
+    "audio": "/audios/Daniel.ogg"
   },
   {
     "id": 2,
-    "name": "Anna",
-    "message": "Another year older, another year wiser, and definitely another year of being awesome! Have the best birthday ever, my friend!"
+    "name": "Dayana",
+    "message": "Mor ya son 6 años a su lado y todavía me sorprende cómo llegó a mi vida para volverla más bonita, desde que la conozco siempre ha sido mi apoyo, mi risa, mi desahogo y mi casa. Gracias por aguantar mis mates, mis silencios, mis cambios de humor y aun así quedarse abrazarme con sus palabras y recordarme siempre cuánto valgo. No sabe lo feliz que me hace compartir tantos recuerdos con usted y saber que todavía nos faltan mil momentos más por vivir.\n\nLa amo con todo mi ser no solo como amiga, sino como la hermana que la vida me regaló. Pase lo que pase siempre voy a estar para usted, orgullosa de la mujer que es y de todo lo que ha logrado. Usted es una de las partes más bonitas de mi vida y no la cambiaría por nada, que disfrutes al mil hoy y siempre 💗"
   },
   {
     "id": 3,
-    "name": "Micheal",
-    "message": "Wishing you a birthday filled with happiness, surrounded by family and friends, and blessed with all the things that make you smile! You deserve the world! ✨"
+    "name": "Jared",
+    "message": "Quería aprovechar este espacio tan extra ( que lindo jermys pero que culiolada jajsjajsja) para decirte que te quiero muchísimo y estoy muy orgulloso de la persona que sos y en lo que te estás convirtiendo cada día, tengo mucha curiosidad y expectativa de su vida futura, yo creo que hasta más que la mía uy, estoy muy seguro que tienes un futuro muy exitoso \nDe verdad siento que una de las mejores cosas que me pasaron en la vida fue haber quedado juntos en la 10-5. No fue desde siempre, pero ojalá sea para siempre, Ahí, entre risas, estrés, tonteras y momentos reales, se fue construyendo algo demasiado valioso para mí, espero que no queden en obras grises esa construcción, porque la busco yo mismo y la amenazo con un taser. Ya que ahora jugamos a la heterosexualidad, my culture is not your costume, pero se lo perdono si me deja ser su padrino o yo no se, nunca he ido a una boda.\nGracias por ser parte de mi vida y por hacerla más entretenida. Que este año venga con cosas buenas, planes improvisados y razones para reírnos. Feliz cumpleaños 🎉"
   },
   {
     "id": 4,
-    "name": "Alex",
-    "message": "Happy Birthday! Thank you for being such an incredible friend. Your positive energy and caring heart make everything better. Here's to many more years of friendship!"
+    "name": "Sofia",
+    "message": "Feliz cumpleeee Annn\nTe quiero muchísimo sapa, gracias por ser tan increíble y ser esa persona en la que siempre se puede confiar. Espero poder tenerte en mi vida muchísimos años más y que tengas un lindo cumpleaños y mil más. Love u"
   },
   {
     "id": 5,
-    "name": "Jessica",
-    "message": "On your special day, I want you to know how grateful I am to have you in my life. You're not just a friend, you're family. Happy Birthday! 🎂"
+    "name": "Juan",
+    "audio": "/audios/Juan.ogg"
   },
   {
     "id": 6,
-    "name": "David",
-    "message": "Hope your birthday is just the beginning of a year filled with happy memories, wonderful moments, and shining dreams. You're truly special!"
-  },
-  {
-    "id": 7,
-    "name": "Angelina",
-    "message": "Another year around the sun and you just keep getting more amazing! Thank you for being you. Wishing you love, laughter, and lots of cake! 🍰"
-  },
-  {
-    "id": 8,
-    "name": "Ryan",
-    "message": "Happy Birthday to someone who makes every day brighter just by being in it! Hope your celebration is as fantastic as you are, buddy!"
-  },
-  {
-    "id": 9,
-    "name": "Lily",
-    "message": "Birthdays come and go, but friends like you are once in a lifetime. Thanks for all the laughs, adventures, and memories. Here's to many more! 🎈"
-  },
-  {
-    "id": 10,
-    "name": "Chris",
-    "message": "Sending you warm birthday wishes and hoping all your dreams come true! You're an amazing person and deserve all the happiness in the world."
-  },
-  {
-    "id": 11,
-    "name": "Maya",
-    "message": "Happy Birthday to my partner in crime! Whether we're laughing until we cry or supporting each other through tough times, you're always there. Love you!"
-  },
-  {
-    "id": 12,
-    "name": "Jordan",
-    "message": "Another year of being fabulous! Your strength, humor, and kindness inspire everyone around you. Have the most wonderful birthday celebration! 🎊"
+    "name": "Zamira",
+    "message": "Angie mariaaa, mi partner in crime literalmente. Mi señora de las mil aventuras y de chachara pura a cualquier hora en cualquier parte. Tal vez nunca sepamos en que momento esta amistad se transformó y nos volvimos mas cercanas pero no importa, solo importa que debemos cuidar esta amistad y no perderla, porque sino quien me va a ayudar a cumplir propósitos de listas o solo tirarse en bungee para celebrar llegar a las 2 décadas. No somos amigas por tantos años pero siento que la conozco de mucho. Y solo quiero seguirla conociendo. Verla cumplir sus metas y brillar tanto como usted quiera. Quiero que este ahi en mis buenos momentos y para cuando ocupe cachetadas de realidad porque la tengo alterada. Quiero mil viajes de mochilera (porque tengo bolsooo) y obligar a juan mil veces a subir montañas aunque no quiera. Quiero que siempre sea mi compañera de probar aventuras nuevas y con quien puedo reflexionar profundo de cosas profundas o muy tontas. La amo con mi cocorin y nunca deje de decirle patillas a las patillas.\nFeliz natalicio ❤️"
   }
 ]
