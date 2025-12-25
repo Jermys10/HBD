@@ -2,7 +2,7 @@ export function BirthdayWish() {
   return (
     <section className="py-16 px-4">
       <div className="container mx-auto max-w-4xl">
-        <div className="birthday-card text-center scale-in">
+        <div className="birthday-card panda-frame text-center scale-in">
           <h2 className="text-4xl md:text-5xl font-dancing font-bold gradient-text mb-8">
             Un deseo especial para Angie
           </h2>

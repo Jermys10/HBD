@@ -10,7 +10,7 @@ export function MessagesList() {
           <h2 className="text-4xl md:text-5xl font-dancing font-bold gradient-text mb-4">
             Mensajes de buenos deseos
           </h2>
-          <div className="birthday-card inline-block px-6 py-3">
+          <div className="birthday-card panda-frame inline-block px-6 py-3">
             <span className="text-2xl font-semibold text-primary">
               {messageCount} Mensajes
             </span>
@@ -21,7 +21,7 @@ export function MessagesList() {
           {messagesData.map((message, index) => (
             <div 
               key={message.id}
-              className="birthday-card scale-in group cursor-pointer"
+              className="birthday-card panda-frame scale-in group cursor-pointer"
               style={{ animationDelay: `${index * 0.05}s` }}
             >
               <div className="relative">
