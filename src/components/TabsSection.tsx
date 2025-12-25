@@ -14,7 +14,7 @@ export function TabsSection() {
         </h2>
 
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid w-full grid-cols-2 mb-8 birthday-card h-auto md:h-10 md:items-center">
+          <TabsList className="grid w-full grid-cols-2 mb-8 birthday-card panda-frame h-auto md:h-10 md:items-center">
             <TabsTrigger value="poems" className="text-lg font-medium whitespace-normal md:whitespace-nowrap flex-col md:flex-row md:gap-1 md:h-full md:py-0 leading-none">
               <span>Poemas</span>
               <span></span>
@@ -30,7 +30,7 @@ export function TabsSection() {
               {poemsData.map((poem, index) => (
                 <div 
                   key={poem.id} 
-                  className="birthday-card scale-in"
+                  className="birthday-card panda-frame scale-in"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <h3 className="text-2xl font-dancing font-semibold gradient-text mb-4">
@@ -49,7 +49,7 @@ export function TabsSection() {
               {quotesData.map((quote, index) => (
                 <div 
                   key={quote.id} 
-                  className="birthday-card scale-in"
+                  className="birthday-card panda-frame scale-in"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <blockquote className="text-lg md:text-xl leading-relaxed mb-4 italic">
