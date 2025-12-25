@@ -97,7 +97,7 @@ export function Gallery() {
     <section className="py-16 px-4">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl md:text-5xl font-dancing font-bold gradient-text text-center mb-12">
-          Memory Lane
+          Recuerdos
         </h2>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
