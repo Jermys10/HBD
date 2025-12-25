@@ -62,7 +62,7 @@ export function Gallery() {
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (selectedImage === null) return
-      
+
       switch (event.key) {
         case 'Escape':
           closeLightbox()
@@ -118,6 +118,45 @@ export function Gallery() {
           ))}
         </div>
 
+{/* Botón hacia la otra página */}
+<div className="mt-10 flex justify-center">
+  <Button
+    asChild
+    className="
+      group relative overflow-hidden rounded-full
+      px-8 py-6 text-base md:text-lg font-semibold
+      text-white
+      bg-[var(--gradient-primary)]
+      border border-white/20
+      shadow-[var(--shadow-soft)]
+      transition-all duration-300
+      hover:shadow-[var(--shadow-hover)]
+      hover:scale-[1.02]
+      active:scale-[0.99]
+    "
+  >
+    <a
+      href="https://hbd2-angie.vercel.app/"
+      target="hbd2_angie"
+      rel="noopener noreferrer"
+      className="relative"
+    >
+      <span className="relative z-10">Ver la otra sorpresa</span>
+      <span
+        className="
+          pointer-events-none absolute inset-0 -z-0
+          translate-x-[-120%] rotate-12
+          bg-white/20 blur-md
+          transition-transform duration-700
+          group-hover:translate-x-[120%]
+        "
+      />
+    </a>
+  </Button>
+</div>
+
+
+
         {/* Lightbox */}
         {selectedImage !== null && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
@@ -157,7 +196,7 @@ export function Gallery() {
             </div>
 
             {/* Backdrop click to close */}
-            <div 
+            <div
               className="absolute inset-0 -z-10"
               onClick={closeLightbox}
             />
